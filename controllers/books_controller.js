@@ -1,7 +1,7 @@
 // DEPENDENCIES
-const express = require('express')
-const books = express.Router()
-const Book = require('../models/book.js')
+const express = require('express');
+const books = express.Router();
+const Book = require('../models/book.js');
 
 // SEED DATA
 books.get('/seed', (req, res) => {

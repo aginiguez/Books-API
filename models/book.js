@@ -1,5 +1,5 @@
-const mongoose = require('mongoose')
-const { Schema } = mongoose
+const mongoose = require('mongoose');
+const { Schema } = mongoose;
 
 const bookSchema = new Schema({
     title: String,
@@ -7,6 +7,6 @@ const bookSchema = new Schema({
     year: Number,
     quantity: Number,
     imageURL: String
-})
+});
 
 module.exports = mongoose.model('Book', bookSchema)

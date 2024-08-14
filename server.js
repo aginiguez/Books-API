@@ -4,7 +4,7 @@ const app = express();
 
 // CONFIG/MIDDLEWARE
 require('dotenv').config();
-const PORT = process.env.PORT || 3300; // Default to port 3300 if not specified
+const PORT = process.env.PORT || 5500; // Default to port 3300 if not specified
 app.use(express.json());
 
 // MONGOOSE CONNECTION
